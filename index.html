@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!--GOOGLE FONTS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+
+
+
+        <!--bootstrap-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css">
+
+    <!--css-->
+    <link rel="stylesheet" href="css/style.css">
+    
+    <title>Dark Tatto Studio</title>
+
+    <!--favicon-->
+    <link rel="shortcut icon" href="/Multimedia/logo.png" type="image/x-icon">
+</head>
+<body>
+
+    <header id="container-fluid header">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark w-100  fixed-top  justify-content-center">
+            <div class="container-fluid header  ">
+
+                <div class="m-2 border-2">
+                    <a class="navbar-brand" href="index.html">Dark Tattoo Studio</a>
+                </div>
+                
+                <button class="navbar-toggler col-12 col-sm-1" type="button" data-bs-toggle="collapse" data-bs-target="#navbarDark" aria-controls="navbarDark" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon p-2"></span>
+                </button>
+
+
+
+
+                <div class="collapse navbar-collapse show" id="navbarDark">
+                    <ul class="navbar-nav me-auto mb-2 w-100 mb-lg-0">
+                        <li class="nav-item p-2">
+                            <a class="nav-link" href="#carouselExampleFade">Inicio</a>
+                        </li>
+                        <li class="nav-item p-2">
+                            <a class="nav-link" href="#container-fluid artistas">Artistas</a>
+                        </li>
+                        <li class="nav-item p-2">
+                            <a class="nav-link" href="galeria.html">Galeria</a>
+                        </li>
+                        <li class="nav-item p-2">
+                            <a class="nav-link" href="#nosotros">Nosotros</a>
+                        </li>
+                        <li class="nav-item p-2">
+                            <a class="nav-link" href="#ubicacion-contacto">Contactanos</a>
+                        </li>
+                    </ul>
+
+                </div>
+
+            </div>
+        </nav>
+    </header>
+
+
+    <section class="carrusel">
+        <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <div class="carousel-inner ">
+                <div class="carousel-item active">
+                    <img src="Multimedia/carrusel-1.jpg" class="d-block  w-100" alt="tattoo studio">
+                </div>
+                <div class="carousel-item  ">
+                    <img src="Multimedia/carrusel-2.png" class="d-block  w-100" alt="tattoo studio">
+                </div>
+                <div class="carousel-item ">
+                    <img src="Multimedia/carrusel.jpg" class="d-block w-100" alt="tattoo studio">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+
+    <main id="container-fluid artistas">
+
+        <h2 class="titulo-artistas" style="font-size:10vw;">Artistas</h2>
+
+
+        <div class="row contenedor-cards d-flex justify-content-center m-0">
+            
+            <!-- card 1 -->
+            <div class="card card-1 col-10  col-md-6 col-lg-4 col-xl-4 text-center">  
+                <a class="perfil" href="https://www.instagram.com/">
+                    <img  src="Multimedia/perfiles/perfil-1-logo.png" alt="artistas">
+                </a>
+
+
+                <h3 class="nombre">Pablo Frias</h3>  <!-- nombre del tatuador -->
+
+                <p width="100%" class="texto">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum optio ratione beatae necessitatibus enim sunt ipsa nobis! Tempora architecto, culpa saepe libero sint aspernatur odit blanditiis reprehenderit cupiditate dicta deleniti?</p> <!-- EM ELEMENTO EN LINEA-->
+
+                <iframe width="100%" height="315" class="yt" src="https://www.youtube.com/embed/hTGmE4w5xMU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+            </div>
+
+
+            <!-- card 2 -->
+            <div class="card card-2 col-10 col-md-6 col-lg-4 col-xl-4 text-center">  
+                <a class="perfil" href="https://www.instagram.com/">
+
+                    <img class="perfil"  src="Multimedia/perfiles/perfil-2.png" alt="artistas">
+
+                </a>
+
+                <h3 >Juan Perez</h3>  <!-- nombre del tatuador -->
+
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum optio ratione beatae necessitatibus enim sunt ipsa nobis! Tempora architecto, culpa saepe libero sint aspernatur odit blanditiis reprehenderit cupiditate dicta deleniti?</p>
+
+                <iframe width="100%" height="315" src="https://www.youtube.com/embed/hTGmE4w5xMU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+            </div>
+
+
+            <!-- card 3 -->
+            <div class="card card-3 col-10  col-md-6 col-lg-4 col-xl-4 text-center">  
+                <a class="perfil" href="https://www.instagram.com/">
+
+                    <img class="perfil" src="Multimedia/perfiles/perfil-3.png" alt="artistas">
+
+                </a>
+
+                <h3 >Nicolas Gerez</h3>  <!-- nombre del tatuador -->
+
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum optio ratione beatae necessitatibus enim sunt ipsa nobis! Tempora architecto, culpa saepe libero sint aspernatur odit blanditiis reprehenderit cupiditate dicta deleniti?</p>
+
+                <iframe width="100%" height="315" src="https://www.youtube.com/embed/hTGmE4w5xMU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+            </div>
+
+
+            <!-- card 4 -->
+            <div class="card card-4 col-10  col-md-6 col-lg-4 col-xl-2 text-center">  
+                <a class="perfil" href="https://www.instagram.com/">
+
+                    <img class="perfil" src="Multimedia/perfiles/perfil-4.png" alt="artistas">
+
+                </a>
+
+                <h3 >Martin Meca</h3>  <!-- nombre del tatuador -->
+
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum optio ratione beatae necessitatibus enim sunt ipsa nobis! Tempora architecto, culpa saepe libero sint aspernatur odit blanditiis reprehenderit cupiditate dicta deleniti?</p>
+
+                <iframe width="100%" height="315" src="https://www.youtube.com/embed/hTGmE4w5xMU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+            </div>
+
+
+            <!-- card 5 -->
+            <div class="card card-5 col-10  col-md-6 col-lg-4 col-xl-2 text-center">  
+                <a class="perfil" href="https://www.instagram.com/">
+
+                    <img class="perfil" src="Multimedia/perfiles/perfil-5.png" alt="artistas">
+
+                </a>
+
+                <h3 >Matias Videla</h3>  <!-- nombre del tatuador -->
+
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum optio ratione beatae necessitatibus enim sunt ipsa nobis! Tempora architecto, culpa saepe libero sint aspernatur odit blanditiis reprehenderit cupiditate dicta deleniti?</p>
+
+                <iframe width="100%" height="315" src="https://www.youtube.com/embed/hTGmE4w5xMU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+            </div>
+
+
+            <!-- card 6 -->
+            <div class="card card-6 col-10  col-md-6 col-lg-4 col-xl-2 text-center">  
+                <a class="perfil" href="https://www.instagram.com/">
+
+                    <img class="perfil" src="Multimedia/perfiles/perfil-6.png" alt="artistas">
+                </a>
+
+                <h3 >Kevin Medina</h3>  <!-- nombre del tatuador -->
+
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum optio ratione beatae necessitatibus enim sunt ipsa nobis! Tempora architecto, culpa saepe libero sint aspernatur odit blanditiis reprehenderit cupiditate dicta deleniti?</p>
+
+                <iframe width="100%" height="315" src="https://www.youtube.com/embed/hTGmE4w5xMU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+            </div>
+
+        </div>
+
+    </main>
+
+    <section class="spotify">
+
+        <h2>Playlist que recomienda nuestros artistas</h2>
+        
+        <iframe class="reproductor" style="border-radius:12px" src="https://open.spotify.com/embed/playlist/37i9dQZF1DX1spT6G94GFC?utm_source=generator&theme=0" width="100%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" ></iframe>
+
+    </section>
+    
+
+    <section id="nosotros">
+
+        <h2>Nuestra historia</h2>
+            
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae quos beatae suscipit, expedita natus voluptatum perferendis quia numquam accusamus iste accusantium doloremque saepe reprehenderit impedit vitae sed temporibus ullam quis.
+        Velit dolores magni impedit repellendus, dolorem consequatur pariatur, labore, est aliquam sint maxime nesciunt totam enim eos inventore laboriosam voluptate aut delectus natus vel sapiente dignissimos voluptatem odit reiciendis. Doloremque?
+        Perferendis, molestias ad voluptas consectetur blanditiis explicabo praesentium, aperiam, vitae eum nihil incidunt nisi. Enim, consequatur obcaecati aliquid, illum assumenda id dicta voluptates vel doloribus, dolor quod voluptatem nemo nesciunt.</p>
+        
+    </section>
+
+
+    <section id="ubicacion-contacto">
+        <div class="maps">
+            <h2>Donde estamos</h2>
+
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3288.953196567042!2d-58.52607868417801!3d-34.47871155840267!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x9342f54cf463fec8!2zMzTCsDI4JzQzLjQiUyA1OMKwMzEnMjYuMCJX!5e0!3m2!1ses!2sar!4v1651625657002!5m2!1ses!2sar" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="mapa"></iframe>
+        </div>
+
+        <div class="formulario">
+            <h2>Contactanos</h2>
+
+            <label for="staticInput" class="form-label">Email</label>
+            <input type="text" readonly="" class="form-control-plaintext" id="staticInput" value="email@example.com">
+        </div>
+    </section>
+
+
+
+
+
+
+    <footer id="footer">
+        <div class="redes">
+            <ul class="lista-de-redes">  <!-- lista de redes sociales -->
+
+                <li> <!--facebook-->
+                    <a href="https://es-la.facebook.com/">
+
+                        <img src="Multimedia/redes/facebook.png" alt="viajeros tatto facebook">
+                        
+                        Viajeros Tatto
+                    </a>
+                </li>
+
+                <li> <!-- instagram-->
+                    <a href="https://www.instagram.com/">
+
+                        <img src="Multimedia/redes/instagram.png" alt="viajeros tatto instagram">
+
+                        @Viajerostatto
+                    </a>
+                </li>
+
+                <li> <!-- youtube -->
+                    <a href="https://www.youtube.com/">
+
+                        <img src="Multimedia/redes/youtube-logo.png" alt="youtube viajeros tatto">
+
+                        Viajeros tatto
+                    </a>
+                </li>
+
+            </ul>
+        </div>
+
+        <p class="direccion">Avenida Siempreviva 123, San Fernando</p> <!-- direccion -->
+
+    </footer>
+    
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

@@ -50,7 +50,7 @@ header {
     }
     
     @media screen and (min-width:991px) {
-        .navbar-nav li :hover {
+        .navbar-nav li &:hover {
             border-top: 1px solid white;
             border-bottom: 1px solid white;
             transform: scale(1.2);
@@ -85,12 +85,12 @@ main {
 
 /* tranform and transition */
 .contenedor-cards {
-    .card :hover {
+    .card &:hover {
         transform: none;
     }
 }
 
-.contenedor-cards :hover {
+.contenedor-cards &:hover {
     transform: scale(1.1);
     transition: all 1s;
     z-index: 2; 
@@ -238,12 +238,12 @@ main {
         }
     }
 }
-.container-img :hover {
+.container-img &:hover {
     transform: scale(1.1);
     transition: all 0.3s ease;
     z-index: 3;
 }
-#tattoo-artistas .container-img .box-img figure img:hover {
+#tattoo-artistas .container-img .box-img figure img &:hover {
     filter: none;
 }
 

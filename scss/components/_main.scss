@@ -1,0 +1,46 @@
+/* inicio del main */
+
+main {
+
+    .titulo-artistas {
+        display: flex;
+        justify-content: center;
+        margin: 4rem 2rem;
+    }
+    .card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 1rem;
+    margin: 2rem;
+    height: 40rem;
+    border: 6px solid hsla(1, 0%, 24%, 0.88)  ;
+    transform: none;
+    transition: none; 
+    background-color: hsla(1, 0%, 16%, 0.19);
+    }
+}
+
+/* tranform and transition */
+.contenedor-cards {
+    .card :hover {
+        transform: none;
+    }
+}
+
+.contenedor-cards :hover {
+    transform: scale(1.1);
+    transition: all 1s;
+    z-index: 2; 
+}
+
+/* media quieries */
+@media screen and (min-width: 1200px) {
+    .card {
+        height: 40rem;
+        margin: 1rem;
+        width: 30rem;
+    }
+}
+
+/* fin del main */

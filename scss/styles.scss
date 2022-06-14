@@ -2,6 +2,14 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Maitree:wght@300&family=Tiro+Gurmukhi:ital@1&family=Ultra&display=swap');
 
+@import "components/header";
+@import "components/main";
+@import "components/spotify";
+@import "components/nosotros";
+@import "components/contacto";
+@import "components/galeria";
+@import "components/footer";
+
 body {
     margin: 0;
     padding: 0;
@@ -30,227 +38,13 @@ p {
 /* fin de configuraciones generales */
 
 
-/* HEADER */
-
-header {
-    .navbar-brand {
-        font-size: 2rem;
-    }
-    a {
-        font-weight: bold;
-        font-family: 'Abril Fatface', cursive;    
-    }
-}
-
-    /* media queries */
-    @media screen and (max-width: 576px) {
-        .navbar-brand {
-            display: none;
-        }
-    }
-    
-    @media screen and (min-width:991px) {
-        .navbar-nav li &:hover {
-            border-top: 1px solid white;
-            border-bottom: 1px solid white;
-            transform: scale(1.2);
-            transition: all 1s; 
-        }
-    }
-
-/* fin del header */
-
-/* inicio del main */
-
-main {
-
-    .titulo-artistas {
-        display: flex;
-        justify-content: center;
-        margin: 4rem 2rem;
-    }
-    .card {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 1rem 1rem;
-    margin: 2rem;
-    height: 40rem;
-    border: 6px solid hsla(1, 0%, 24%, 0.88)  ;
-    transform: none;
-    transition: none; 
-    background-color: hsla(1, 0%, 16%, 0.19);
-    }
-}
-
-/* tranform and transition */
-.contenedor-cards {
-    .card &:hover {
-        transform: none;
-    }
-}
-
-.contenedor-cards &:hover {
-    transform: scale(1.1);
-    transition: all 1s;
-    z-index: 2; 
-}
-
-/* media quieries */
-@media screen and (min-width: 1200px) {
-    .card {
-        height: 40rem;
-        margin: 1rem;
-        width: 30rem;
-    }
-}
-
-/* fin del main */
 
 
-/* spotify */
-.spotify {
-    display: grid;
-    grid-template-rows: 1fr;
-    grid-template-columns:  1fr 1fr;
-    margin: 6rem 5%;    
-    align-items: center;
-    h2 {
-        grid-row: 1 / 2;
-        grid-column: 1 / 2;
-        padding: 0 1rem;
-    }
-    .reproductor {
-        grid-row: 1 / 2;
-        grid-column: 2 / 3;
-    }
-}
-/* fin spotify */
 
 
-/* nosotros */
-#nosotros {
-    display: grid;
-    grid-template-rows: 1fr;
-    grid-template-columns:  1fr 1fr;
-    margin: 10rem 5%;    
-    align-items: center;
-    h2 {
-        margin: 0;
-        text-align: center;
-        grid-row: 1 / 2;
-        grid-column: 2 / 3;
-    }
-    p {
-        margin: 0;
-        padding: 1rem;
-        text-align: center;
-        grid-row: 1 / 2;
-        grid-column: 1 / 2;
-    }
-}
-
-@media screen and (max-width: 768px) {
-    #nosotros {
-        display: none;
-    }
-}
-/* fin nosotros */
 
 
-/* ubicacion y contacto */ 
-#ubicacion-contacto {
-    display: grid;
-    grid-template-rows: 1fr 1fr;
-    grid-template-columns: 1fr;
-    margin: 3rem 5%;
-    .maps {
-        grid-row: 1 / 2;
-        grid-column: 1 / 2;
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        margin: 3rem 0;
-    }
-    .formulario {
-        margin: 3rem 0;
-        grid-column: 1 / 2;
-        grid-row: 2 / 3;
-    }
-}
-/* fin ubicacion y contacto */
 
 
-/* footer */
-#footer {
-    background-color: #212429;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    .redes {
-        padding: 0;
-        margin: 0;
-        .lista-de-redes {
-            margin: 0;
-            padding: 1rem;
-            li {
-                a {
-                    color: #d4d4d4;
-                }
-            }
-        }
-    }
-    .direccion {
-        margin: 0;
-        color: #d4d4d4;
-        font-size: 15px;
-    }
-}
-/* fin del footer */
 
 
-/* ---- galeria ----- */
-#tattoo-artistas {
-    .pablo{
-        margin-top: 150px;
-        font-size: 6rem;
-    }
-    .container-img {
-        width: 100%;
-        max-width: 1100px;
-        margin: auto;
-        margin-top: 50px;
-        margin-bottom: 70px;
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        grid-row: 250px;
-        gap: 20px;
-        
-        .box-img figure {
-            width: 100%;
-            height: 100%;
-            img {
-                width: 100%;
-                height: 100%;
-                object-fit: cover;
-                filter: saturate( 20%);
-            }
-        }
-    }
-}
-.container-img &:hover {
-    transform: scale(1.1);
-    transition: all 0.3s ease;
-    z-index: 3;
-}
-#tattoo-artistas .container-img .box-img figure img &:hover {
-    filter: none;
-}
-
-@media screen and (max-width: 576px) {
-    #tattoo-artistas .pablo{
-        
-        font-size: 3rem;
-    }
-}
-/* ---- fin de galeria ---- */

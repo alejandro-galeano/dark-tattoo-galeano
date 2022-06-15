@@ -10,11 +10,6 @@ header a {
 }
 
 /* media queries */
-@media screen and (max-width: 576px) {
-  .titulo {
-    display: none;
-  }
-}
 @media screen and (min-width: 991px) {
   .nav-list li :hover {
     border-top: 1px solid white;

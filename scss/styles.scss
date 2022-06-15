@@ -2,13 +2,17 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Maitree:wght@300&family=Tiro+Gurmukhi:ital@1&family=Ultra&display=swap');
 
-@import "components/header";
-@import "components/main";
-@import "components/spotify";
-@import "components/nosotros";
-@import "components/contacto";
-@import "components/galeria";
-@import "components/footer";
+@import "./components/header";
+@import "./components/main";
+@import "./components/spotify";
+@import "./components/nosotros";
+@import "./components/contacto";
+@import "./components/galeria";
+@import "./components/footer";
+@import "./base/extends";
+@import "./base/listas";
+@import "./base/mixins";
+
 
 body {
     margin: 0;
@@ -16,35 +20,4 @@ body {
     font-size: 62,5%;
 }
 
-
-h2 , h3 {   
-    font-family: 'Ultra', serif;
-    color: #555555 ;
-    padding-top: 10px;
-    padding-bottom: 20px;
-}
-
-a {
-    text-decoration: none;
-    color: #d4d4d4;
-    letter-spacing: 5px;
-}
-
-p {
-    font-family: 'Tiro Gurmukhi', serif;
-}
-
-
 /* fin de configuraciones generales */
-
-
-
-
-
-
-
-
-
-
-
-

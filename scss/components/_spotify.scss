@@ -1,14 +1,16 @@
+
+@import "../base/mixins";
+
 /* spotify */
 .spotify {
-    display: grid;
-    grid-template-rows: 1fr;
-    grid-template-columns:  1fr 1fr;
+    @include grid (grid, 1fr, 1fr 1fr);
     margin: 6rem 5%;    
     align-items: center;
     h2 {
         grid-row: 1 / 2;
         grid-column: 1 / 2;
         padding: 0 1rem;
+        @extend %titulo-mediano;
     }
     .reproductor {
         grid-row: 1 / 2;

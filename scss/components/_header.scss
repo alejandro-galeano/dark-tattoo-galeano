@@ -4,9 +4,11 @@ header {
     .titulo {
         font-size: 2rem;
     }
+
     a {
         font-weight: bold;
         font-family: 'Abril Fatface', cursive;    
+        @extend %link-nav;
     }
 }
 

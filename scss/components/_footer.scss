@@ -1,18 +1,21 @@
 /* footer */
 #footer {
-    background-color: #212429;
+    background-color: nth($colores, 3);
     display: flex;
     justify-content: space-between;
     align-items: center;
+
     .redes {
         padding: 0;
         margin: 0;
+
         .lista-de-redes {
             margin: 0;
             padding: 1rem;
+
             li {
                 a {
-                    color: #d4d4d4;
+                    @extend %link-nav;
                 }
             }
         }

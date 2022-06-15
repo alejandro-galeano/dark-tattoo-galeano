@@ -3,6 +3,7 @@
     .pablo{
         margin-top: 150px;
         font-size: 6rem;
+        @extend %titulo-mediano;
     }
     .container-img {
         width: 100%;
@@ -31,9 +32,7 @@
         }
     }
 }
-.container-img :hover {
 
-}
 #tattoo-artistas .container-img .box-img figure img :hover {
     filter: none;
 }

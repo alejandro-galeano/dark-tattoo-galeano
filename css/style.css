@@ -42,7 +42,6 @@ main .card {
   transition: none;
   background-color: hsla(1deg, 0%, 16%, 0.19);
 }
-
 /* tranform and transition */
 .contenedor-cards .card :hover {
   transform: none;
@@ -130,7 +129,6 @@ main .card {
   grid-column: 1/2;
   grid-row: 2/3;
 }
-
 /* fin ubicacion y contacto */
 /* ---- galeria ----- */
 #tattoo-artistas .pablo {
@@ -188,9 +186,6 @@ main .card {
   margin: 0;
   padding: 1rem;
 }
-#footer .redes .lista-de-redes li a {
-  color: #d4d4d4;
-}
 #footer .direccion {
   margin: 0;
   color: #d4d4d4;
@@ -198,27 +193,27 @@ main .card {
 }
 
 /* fin del footer */
-body {
-  margin: 0;
-  padding: 0;
-  font-size: 62, 5%;
-}
-
-h2, h3 {
+main .titulo-artistas, main .card h3, .spotify h2, #nosotros h2, #ubicacion-contacto .maps h2, #ubicacion-contacto .formulario h2, #tattoo-artistas .pablo {
   font-family: "Ultra", serif;
   color: #555555;
   padding-top: 10px;
   padding-bottom: 20px;
 }
 
-a {
+header a, #footer .redes .lista-de-redes li a {
   text-decoration: none;
   color: #d4d4d4;
   letter-spacing: 5px;
 }
 
-p {
+main .card p, #nosotros p {
   font-family: "Tiro Gurmukhi", serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 62, 5%;
 }
 
 /* fin de configuraciones generales */

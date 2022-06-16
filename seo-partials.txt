@@ -1,0 +1,27 @@
+En el index.html y galeria.html sume el SEO con la siguiente características:
+Description: mediante la meta description, agregue una descripción de que hacemos y quiénes somos. "somos el estudio de tatuaje mas popular desde hace 20 años, especialistas en tradicional, nueva escuela y japonés. Encontranos en San Fernando y Lanús"
+keywords: utilice las palabras claves mas buscadas sacadas de semrush.com."estudio de tatuaje, tattoo rosa de los vientos, ave fenix y dragon tattoo, alas de angel tattoo para hombres, cara de cristo tattoo,  "
+author: agregue un meta tag con mi nombre para que se sepa el auto de la pagina.
+
+Open graph: 
+og:title = este es el titulo:
+"los mejores artistas del tatuaje"
+og:description = descripcion del sitio "aprovecha los mejores precios en tatuajes".
+og:image = La imagen que se muestra cuando se comparte.
+og:locale = idioma del sitio.
+
+Se agregó un favicon a ambos html.
+
+Se agregó extends, listas y mixins.
+
+
+extends : se agrego 
+1=para titulos como h2 y h3.%titulo-mediano
+
+2= para los enlaces del header.%link-nav
+
+3= para los parrafos.%parrafos
+
+listas : se agrego una lista de colores $colores.
+
+mixins : se agrego un minix para el grid, columns y rows .@mixin  grid

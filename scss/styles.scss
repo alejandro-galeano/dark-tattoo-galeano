@@ -1,6 +1,7 @@
 /* configuraciones generales */
 
-
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Ultra&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Joan&family=Ultra&display=swap');
 
 @import "./components/header";
 @import "./components/main";
@@ -12,7 +13,7 @@
 @import "./base/extends";
 @import "./base/listas";
 @import "./base/mixins";
-
+@import "./components/estilos-tatuajes";
 
 body {
     margin: 0;

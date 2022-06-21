@@ -1,0 +1,58 @@
+
+#estilos-de-tatuajes {
+    background-color: nth($colores, 3);
+    h2 {
+        font-size: 3rem;
+        margin: 0;
+        color: aliceblue;
+        @extend %titulo-mediano;
+    }
+    .contenido-estilos {
+        padding: 2rem 4rem;
+        .box-estilos {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        @media screen and (min-width: 768px) {
+            flex-direction: row;
+        }
+        .caja-img {
+            height: 300px;
+            width: 300px;
+
+                img {
+                    height: 100%;
+                    width: 100%;
+                    padding: 1rem;
+                    border-radius: 10%;
+                    @media screen and (max-width: 768px) {
+                        display: nne;
+                    }
+                }
+        }
+        .caja-desc {
+            text-align: center;
+            padding: 2rem;
+            width: 50%;
+            
+            @media screen and (max-width: 768px) {
+                padding: 0;
+                width: 100%;
+            }
+
+            h3 {
+                @extend %titulo-mediano
+            }
+            p {
+                color: white;
+                @extend %parrafos;
+            }
+        }
+        
+        }
+    }
+}
+

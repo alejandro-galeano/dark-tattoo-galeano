@@ -1,5 +1,6 @@
 /* configuraciones generales */
-@import url("https://fonts.googleapis.com/css2?family=Maitree:wght@300&family=Tiro+Gurmukhi:ital@1&family=Ultra&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Ultra&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Joan&family=Ultra&display=swap");
 /* HEADER */
 header .titulo {
   font-size: 2rem;
@@ -188,7 +189,7 @@ main .card {
 }
 
 /* fin del footer */
-main .titulo-artistas, main .card h3, .spotify h2, #nosotros h2, #ubicacion-contacto .maps h2, #ubicacion-contacto .formulario h2, #tattoo-artistas .pablo {
+#estilos-de-tatuajes .contenido-estilos .box-estilos .caja-desc h3, #estilos-de-tatuajes h2, main .titulo-artistas, main .card h3, .spotify h2, #nosotros h2, #ubicacion-contacto .maps h2, #ubicacion-contacto .formulario h2, #tattoo-artistas .pablo {
   font-family: "Ultra", serif;
   color: #555555;
   padding-top: 10px;
@@ -201,8 +202,63 @@ header a, #footer .redes .lista-de-redes li a {
   letter-spacing: 5px;
 }
 
-main .card p, #nosotros p {
-  font-family: "Tiro Gurmukhi", serif;
+#estilos-de-tatuajes .contenido-estilos .box-estilos .caja-desc p, main .card p, #nosotros p {
+  font-family: "Joan", serif;
+  font-weight: bold;
+}
+
+#estilos-de-tatuajes {
+  background-color: #212429;
+}
+#estilos-de-tatuajes h2 {
+  font-size: 3rem;
+  margin: 0;
+  color: aliceblue;
+}
+#estilos-de-tatuajes .contenido-estilos {
+  padding: 2rem 4rem;
+}
+#estilos-de-tatuajes .contenido-estilos .box-estilos {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (min-width: 768px) {
+  #estilos-de-tatuajes .contenido-estilos .box-estilos {
+    flex-direction: row;
+  }
+}
+#estilos-de-tatuajes .contenido-estilos .box-estilos .caja-img {
+  height: 300px;
+  width: 300px;
+}
+#estilos-de-tatuajes .contenido-estilos .box-estilos .caja-img img {
+  height: 100%;
+  width: 100%;
+  padding: 1rem;
+  border-radius: 10%;
+}
+@media screen and (max-width: 768px) {
+  #estilos-de-tatuajes .contenido-estilos .box-estilos .caja-img img {
+    display: nne;
+  }
+}
+#estilos-de-tatuajes .contenido-estilos .box-estilos .caja-desc {
+  text-align: center;
+  padding: 2rem;
+  width: 50%;
+}
+@media screen and (max-width: 768px) {
+  #estilos-de-tatuajes .contenido-estilos .box-estilos .caja-desc {
+    padding: 0;
+    width: 100%;
+  }
+}
+#estilos-de-tatuajes .contenido-estilos .box-estilos .caja-desc p {
+  color: white;
 }
 
 body {

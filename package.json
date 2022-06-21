@@ -298,11 +298,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/alejandro-galeano/proyecto-sass-galeano.git"
+    "url": "git+https://github.com/alejandro-galeano/dark-tattoo-galeano.git"
   },
   "bugs": {
-    "url": "https://github.com/alejandro-galeano/proyecto-sass-galeano/issues"
+    "url": "https://github.com/alejandro-galeano/dark-tattoo-galeano/issues"
   },
-  "homepage": "https://github.com/alejandro-galeano/proyecto-sass-galeano#readme",
+  "homepage": "https://github.com/alejandro-galeano/dark-tattoo-galeano#readme",
   "description": ""
 }

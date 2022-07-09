@@ -131,16 +131,25 @@ main .card {
   margin-top: 150px;
   font-size: 6rem;
 }
+@media screen and (max-width: 576px) {
+  #tattoo-artistas .pablo {
+    font-size: 3rem;
+  }
+}
 #tattoo-artistas .container-img {
   width: 100%;
   max-width: 1100px;
   margin: auto;
   margin-top: 50px;
   margin-bottom: 70px;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
   grid-row: 250px;
   gap: 20px;
+}
+@media screen and (min-width: 576px) {
+  #tattoo-artistas .container-img {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
 #tattoo-artistas .container-img .box-img figure {
   width: 100%;
@@ -161,11 +170,6 @@ main .card {
   filter: none;
 }
 
-@media screen and (max-width: 576px) {
-  #tattoo-artistas .pablo {
-    font-size: 3rem;
-  }
-}
 /* ---- fin de galeria ---- */
 /* footer */
 #footer {
@@ -189,7 +193,7 @@ main .card {
 }
 
 /* fin del footer */
-#estilos-de-tatuajes .contenido-estilos .box-estilos .caja-desc h3, #estilos-de-tatuajes h2, main .titulo-artistas, main .card h3, .spotify h2, #nosotros h2, #ubicacion-contacto .maps h2, #ubicacion-contacto .formulario h2, #tattoo-artistas .pablo {
+#estilos-de-tatuajes .contenido-estilos .box-estilos .caja-desc .tipo, #estilos-de-tatuajes h2, main .titulo-artistas, main .card h3, .spotify h2, #nosotros h2, #ubicacion-contacto .maps h2, #ubicacion-contacto .formulario h2, #tattoo-artistas .pablo {
   font-family: "Ultra", serif;
   color: #555555;
   padding-top: 10px;
@@ -207,6 +211,7 @@ header a, #footer .redes .lista-de-redes li a {
   font-weight: bold;
 }
 
+/* tipos de tatuajes */
 #estilos-de-tatuajes {
   background-color: #212429;
 }
@@ -261,10 +266,15 @@ header a, #footer .redes .lista-de-redes li a {
   color: white;
 }
 
+/* fin de tipos de tatuajes */
 body {
   margin: 0;
   padding: 0;
   font-size: 62, 5%;
+}
+
+.disclaimer {
+  display: none;
 }
 
 /* fin de configuraciones generales */

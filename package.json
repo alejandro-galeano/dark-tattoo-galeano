@@ -1,5 +1,5 @@
 {
-  "name": "sass",
+  "name": "dark-tattoo-galeano",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
@@ -7,7 +7,7 @@
     "build-css": "node-sass --include-path scss scss/styles.scss css/style.css",
     "watch-css": "nodemon -e scss -x \"npm run build-css\""
   },
-  "author": "",
+  "author": "alejandro daniel galeano",
   "license": "ISC",
   "devDependencies": {
     "node-sass": "^7.0.1",
@@ -304,5 +304,5 @@
     "url": "https://github.com/alejandro-galeano/dark-tattoo-galeano/issues"
   },
   "homepage": "https://github.com/alejandro-galeano/dark-tattoo-galeano#readme",
-  "description": ""
+  "description": "dark tatto studio es un estudio de tatuaje con los mejores artistas de zona norte"
 }

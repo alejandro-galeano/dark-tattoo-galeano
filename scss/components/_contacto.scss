@@ -16,9 +16,7 @@
         }
     }
     .formulario {
-        margin: 3rem 0;
-        grid-column: 1 / 2;
-        grid-row: 2 / 3;
+
         h2 {
             @extend %titulo-mediano;
         }

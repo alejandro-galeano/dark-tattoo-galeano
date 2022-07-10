@@ -120,11 +120,6 @@ main .card {
   text-align: center;
   margin: 3rem 0;
 }
-#ubicacion-contacto .formulario {
-  margin: 3rem 0;
-  grid-column: 1/2;
-  grid-row: 2/3;
-}
 /* fin ubicacion y contacto */
 /* ---- galeria ----- */
 #tattoo-artistas .pablo {
